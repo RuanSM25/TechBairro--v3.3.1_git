@@ -2,7 +2,7 @@
 
 A TechBairro é um programa de computador para cadastrar, consultar, alterar e excluir clientes da associação de moradores. A ideia é facilitar o trabalho da pessoa que atende na secretaria.
 
-**Versão atual:** 3.3.1 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
+**Versão atual:** 3.3.2 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
 
 ## Funcionalidades
 

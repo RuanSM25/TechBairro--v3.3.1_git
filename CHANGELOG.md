@@ -1,5 +1,18 @@
 # CHANGELOG — TechBairro
 
+## v3.3.2 (Aula 27)
+
+### Adicionado
+- README com requisitos, instalação e configuração do banco.
+- Arquivo requirements.txt com explicação das dependências.
+- Manual de uso em docs/manual_de_uso.md.
+- Registro dos seis testes da avaliação final em docs/registro_de_testes.md.
+- Registro de entrega e roteiro de apresentação em docs/entrega_final.md.
+
+### Conferido
+- Os seis casos funcionais passaram no ambiente de teste descrito em docs/registro_de_testes.md.
+- Os seis testes automáticos de validação passaram.
+
 ## v3.3.1 (Aula 21)
 
 ### Alterado

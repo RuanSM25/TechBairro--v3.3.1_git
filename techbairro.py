@@ -7,8 +7,7 @@ from cliente import Cliente
 from banco import GerenciadorClientes
 from validacao import ValidadorCliente
 
-VERSAO = "3.3.1"
-
+VERSAO = "3.3.2"
 # ============================================================
 # CLASSES E BANCO DE DADOS
 # ============================================================

@@ -1,4 +1,4 @@
-# TechBairro v3.3.1
+# TechBairro v3.3.2
 # O projeto nao possui dependencias externas para instalar com pip.
 # Modulos da biblioteca padrao usados na aplicacao: tkinter, sqlite3 e os.
 # Scripts auxiliares usam csv, sys, pathlib, re e zipfile.
