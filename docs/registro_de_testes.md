@@ -34,6 +34,10 @@ Todos os testes passaram.
 
 **Dependências:** `python -m pip install -r requirements.txt` terminou sem instalar pacotes externos nem apresentar erro de instalação.
 
+## Teste do pacote em pasta limpa
+
+O comando `python scripts/gerar_pacote.py` gerou `dist/TechBairro-3.3.2.zip`. O ZIP foi extraído em uma pasta separada, sem reutilizar o banco da pasta de desenvolvimento. A instalação por `python -m pip install -r requirements.txt` terminou sem erro e não instalou dependências externas. Na execução da cópia extraída, a janela mostrou `v3.3.2`, o contador iniciou em 0 e o arquivo `techbairro.db` foi criado dentro da pasta extraída. A inspeção do pacote confirmou que os arquivos de documentação estavam incluídos e que banco de dados, `__pycache__`, `dist` e arquivos `.pyc` ficaram de fora.
+
 ## Defeitos encontrados
 
 Nenhum defeito foi identificado nos seis casos funcionais e nos seis testes automáticos executados no ambiente indicado acima. A demonstração usa dados fictícios e um banco temporário. Como o teste automatizado da interface foi feito em Linux com display virtual, recomenda-se também abrir o pacote final no computador Windows que será usado na apresentação, caso seja esse o ambiente da sala.
