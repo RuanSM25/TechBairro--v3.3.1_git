@@ -10,7 +10,7 @@
 | 2 | A versão aparece na janela e é a mesma do CHANGELOG e do README | `techbairro.py` usa `VERSAO = "3.3.2"`; README e CHANGELOG registram 3.3.2. A janela foi verificada no teste automatizado da interface. |
 | 3 | O pacote foi testado numa pasta limpa | `dist/TechBairro-3.3.2.zip` foi gerado e testado em uma pasta isolada. O teste confirmou versão 3.3.2, contador inicial em 0 e criação de `techbairro.db` somente dentro da pasta extraída. |
 | 4 | Tag e release publicadas no GitHub, com o ZIP anexado | **Pendente de publicação no site do GitHub.** Depois de criar a tag `v3.3.2`, publicar a release `TechBairro 3.3.2` e anexar `TechBairro-3.3.2.zip`, substituir esta nota pelo link da release. Página para publicar: https://github.com/RuanSM25/techbairro/releases/new?tag=v3.3.2 |
-| 5 | O repositório não tem banco, __pycache__ nem dist | `.gitignore` contém `*.db`, `__pycache__/`, `*.pyc`, `dist/` e `*.zip`. Conferir a lista de arquivos do repositório após o commit. |
+| 5 | O repositório não tem banco, __pycache__ nem dist | Conferido na árvore do GitHub após o commit: não há arquivos `.db`, pasta `__pycache__`, pasta `dist` ou arquivos `.pyc` versionados. O `.gitignore` também inclui regras para esses itens. |
 | 6 | O histórico tem commits com mensagens claras | https://github.com/RuanSM25/techbairro/commits/main |
 | 7 | README, manual de uso e requirements.txt estão no repositório | [README](../README.md) · [Manual de uso](manual_de_uso.md) · [requirements.txt](../requirements.txt) |
 | 8 | A Issue “Teste do README” (Aula 26) está fechada | https://github.com/RuanSM25/techbairro/issues/1 |
